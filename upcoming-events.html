@@ -68,32 +68,12 @@
 <div class="colorlib-loader"></div>
 
 <div id="page">
-    <nav class="colorlib-nav" role="navigation">
-        <div class="upper-menu">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-4">
-                        <p>CHS Computer Science Club</p>
-                    </div>
-                    <div class="col-xs-6 col-md-push-2 text-right">
-                        <p>
-                        <ul class="colorlib-social-icons">
-                            <!-- TODO fix alignment of remind101 -->
-                            <li><a href="https://remind.com/join/ebock"><i class="icon-remind101"></i></a></li>
-                            <li><a href="https://github.com/TitanCSClub"><i class="icon-github"></i></a></li>
-                        </ul>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="top-menu"></div>
-        <script>
-            $(function() {
-                $(".top-menu").load("templates/navbar.html");
-            });
-        </script>
-    </nav>
+    <div class="header-include"></div>
+    <script>
+        $(function() {
+            $(".header-include").load("templates/header-include.html");
+        });
+    </script>
     <aside id="colorlib-hero">
         <div class="flexslider">
             <ul class="slides">
