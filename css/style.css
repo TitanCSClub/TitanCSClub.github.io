@@ -253,8 +253,8 @@ h1, h2, h3, h4, h5, h6, figure{color:#000;font-family:"Playfair Display", Georgi
 .article-entry .desc h2 a{color:#000;}
 .article-entry .desc .admin{margin-bottom:20px;}
 .article-entry .desc .admin span:last-child{color:#000;}
-.f-blog{position:relative;padding:1em;padding-left:140px;margin-bottom:20px;background:#fff;}
-.f-blog .blog-img{position:absolute;top:1em;left:1em;display:block;width:100px;height:100px;float:left;}
+.f-blog{position:relative;padding:1em;padding-left:160px;margin-bottom:20px;background:#fff;}
+.f-blog .blog-img{position:absolute;top:1em;left:1em;display:block;width:125px;height:125px;float:left;}
 .f-blog .desc h2{font-size:22px;margin-bottom:5px;}
 .f-blog .desc h2 a{color:#000;}
 .f-blog .desc .admin{font-size:13px;}
