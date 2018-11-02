@@ -223,6 +223,21 @@ h1, h2, h3, h4, h5, h6, figure{color:#000;font-family:"Playfair Display", Georgi
 @media screen and (max-width:768px){.event-flex .half{width:100%;}
 .event-flex .half:last-child{padding-left:0;}
 }
+.old-event-entry{padding:1.3em;background:#fff;margin-bottom:30px;}
+.old-event-entry .desc{border-bottom:1px solid #e6e6e6;margin-bottom:20px;padding-left:75px;position:relative;}
+.old-event-entry .desc .startenddate{font-size:16px;margin-bottom:10px;}
+.old-event-entry .desc .startenddate span:first-child{font-weight:700;color:#429FFD;}
+.old-event-entry .desc .startenddate span:last-child{color:#000;}
+.old-event-entry .desc .meta{line-height:1.3;text-transform:uppercase;position:absolute;top:0;left:0;}
+.old-event-entry .desc .meta span{display:block;font-weight:700;color:#429FFD;}
+.old-event-entry .desc .meta .day{font-size:36px;}
+.old-event-entry .desc .meta .month{font-size:20px;font-weight:600;}
+.old-event-entry .desc .organizer span:last-child{color:#000;}
+.old-event-entry .location{position:relative;padding-left:45px;}
+.old-event-entry .location .icon{position:absolute;top:0;left:0;}
+.old-event-entry .location .icon i{-webkit-background-clip:text;-moz-background-clip:text;-ms-background-clip:text;-o-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;-moz-text-fill-color:transparent;-ms-text-fill-color:transparent;-o-text-fill-color:transparent;text-fill-color:transparent;}
+.old-event-entry h2{font-size:24px;line-height:1.4;}
+.old-event-entry h2 a{color:#000;}
 .event-entry{padding:1.3em;background:#f2f3f7;margin-bottom:30px;}
 .event-entry .desc{border-bottom:1px solid #e6e6e6;margin-bottom:20px;padding-left:75px;position:relative;}
 .event-entry .desc .startenddate{font-size:16px;margin-bottom:10px;}
